@@ -93,6 +93,9 @@ select:focus,
 input:focus {
   outline: none;
   border-color: var(--light-blue);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .min-value-info {

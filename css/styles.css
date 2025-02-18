@@ -81,6 +81,9 @@ label {
 
 select,
 input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   width: 100%;
   padding: 0.75rem;
   border: 2px solid var(--gray);
@@ -93,9 +96,6 @@ select:focus,
 input:focus {
   outline: none;
   border-color: var(--light-blue);
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .min-value-info {
